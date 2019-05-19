@@ -1,0 +1,18 @@
+.box{
+    width: 500px;
+    height: 500px;
+    color: #000;
+    border-color: #000;
+    border-width: 2px;
+    border-style: dashed;
+    background-color: white;
+    transition-duration: 1s;
+    transition-property: color,background-color;
+    transition-timing-function: ease-in-out;
+    
+}
+
+.box:hover {
+    background-color: #000;
+    color: #ffffff;
+}
